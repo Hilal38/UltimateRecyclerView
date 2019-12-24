@@ -58,19 +58,19 @@ public class MainList extends AppCompatActivity implements AdapterView.OnItemCli
         data.put("LauncherActivity", LauncherActivity.class);
         data.put("Debug Grid Test", GridLayoutRVTest.class);
         data.put("Issue #374, #363 enabled and disable load more off screen", GridTestOnlyOnePage.class);
-        data.put("Debug load more", DebugLoadMoreActivity.class);
-        data.put("Debug no header", DebugNoHeaderLoadMoreActivity.class);
-        data.put("Debug Final Empty", FinalEmptyViewDisplayActivity.class);
-        data.put("Debug First Page Cancel Load More", FirstPageCancelLoadMore.class);
-        data.put("Debug Line Node", LineNodeActivity.class);
-        data.put("Debug Pull to refresh", PullToRefreshActivity.class);
-        data.put("Debug Admob classic", TestAdMobClassicActivity.class);
-        data.put("Debug Admob advanced", TestAdvancedAdmobActivity.class);
-        data.put("Debug Slider Header", SliderHeader.class);
-        data.put("Debug Stagger Load More", StaggerLoadMoreActivity.class);
-        data.put("Debug Swipe List", SwipeListViewExampleActivity.class);
-        data.put("Debug expandable", TestExpandableRV.class);
-        data.put("Debug multi view types", MultiViewTypesActivity.class);
+       // data.put("Debug load more", DebugLoadMoreActivity.class);
+       // data.put("Debug no header", DebugNoHeaderLoadMoreActivity.class);
+       // data.put("Debug Final Empty", FinalEmptyViewDisplayActivity.class);
+       // data.put("Debug First Page Cancel Load More", FirstPageCancelLoadMore.class);
+       // data.put("Debug Line Node", LineNodeActivity.class);
+       // data.put("Debug Pull to refresh", PullToRefreshActivity.class);
+       // data.put("Debug Admob classic", TestAdMobClassicActivity.class);
+       // data.put("Debug Admob advanced", TestAdvancedAdmobActivity.class);
+       // data.put("Debug Slider Header", SliderHeader.class);
+       // data.put("Debug Stagger Load More", StaggerLoadMoreActivity.class);
+       // data.put("Debug Swipe List", SwipeListViewExampleActivity.class);
+       // data.put("Debug expandable", TestExpandableRV.class);
+       // data.put("Debug multi view types", MultiViewTypesActivity.class);
     }
 
     @Override
