@@ -106,8 +106,7 @@ public class LauncherActivity extends AppCompatActivity implements ActionMode.Ca
                         ultimateRecyclerView.setRefreshing(false);
                         //   ultimateRecyclerView.scrollBy(0, -50);
                         linearLayoutManager.scrollToPosition(0);
-//                        ultimateRecyclerView.setAdapter(simpleRecyclerViewAdapter);
-//                        simpleRecyclerViewAdapter.notifyDataSetChanged();
+
                     }
                 }, 1000);
             }
@@ -134,50 +133,13 @@ public class LauncherActivity extends AppCompatActivity implements ActionMode.Ca
                         simpleRecyclerViewAdapter.insert("More " + moreNum++, simpleRecyclerViewAdapter.getAdapterItemCount());
                         simpleRecyclerViewAdapter.insert("More " + moreNum++, simpleRecyclerViewAdapter.getAdapterItemCount());
                         simpleRecyclerViewAdapter.insert("More " + moreNum++, simpleRecyclerViewAdapter.getAdapterItemCount());
-                        // linearLayoutManager.scrollToPositionWithOffset(maxLastVisiblePosition,-1);
-                        //   linearLayoutManager.scrollToPosition(maxLastVisiblePosition);
+
 
                     }
                 }, 1000);
             }
         });
 
-//        ultimateRecyclerView.setDefaultSwipeToRefreshColorScheme(getResources().getColor(android.R.color.holo_blue_bright),
-//                getResources().getColor(android.R.color.holo_green_light),
-//                getResources().getColor(android.R.color.holo_orange_light),
-//                getResources().getColor(android.R.color.holo_red_light));
-
-//        ultimateRecyclerView.setScrollViewCallbacks(new ObservableScrollViewCallbacks() {
-//            @Override
-//            public void onScrollChanged(int scrollY, boolean firstScroll, boolean dragging) {
-//
-//            }
-//
-//            @Override
-//            public void onDownMotionEvent() {
-//
-//            }
-//
-//            @Override
-//            public void onUpOrCancelMotionEvent(ObservableScrollState observableScrollState) {
-////                if (observableScrollState == ObservableScrollState.DOWN) {
-////                    ultimateRecyclerView.showToolbar(toolbar, ultimateRecyclerView, getScreenHeight());
-////                    ultimateRecyclerView.showFloatingActionMenu();
-////                } else if (observableScrollState == ObservableScrollState.UP) {
-////                    ultimateRecyclerView.hideToolbar(toolbar, ultimateRecyclerView, getScreenHeight());
-////                    ultimateRecyclerView.hideFloatingActionMenu();
-////                } else if (observableScrollState == ObservableScrollState.STOP) {
-////                }
-//                URLogs.d("onUpOrCancelMotionEvent");
-//                if (observableScrollState == ObservableScrollState.UP) {
-//                    ultimateRecyclerView.hideToolbar(toolbar, ultimateRecyclerView, getScreenHeight());
-//                    ultimateRecyclerView.hideFloatingActionMenu();
-//                } else if (observableScrollState == ObservableScrollState.DOWN) {
-//                    ultimateRecyclerView.showToolbar(toolbar, ultimateRecyclerView, getScreenHeight());
-//                    ultimateRecyclerView.showFloatingActionMenu();
-//                }
-//            }
-//        });
 
         ultimateRecyclerView.showFloatingButtonView();
 //
